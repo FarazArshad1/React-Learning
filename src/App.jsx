@@ -1,5 +1,5 @@
 import Hello from './components/CSS/applyCSS'
-import DiscountMessage from './components/Conditional Rendering/CRwithCSS'
+import Students from './components/Props/ArrayAsProps'
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Hello />
-      <DiscountMessage />
+      <Students name="Faraz" age={25} city="Lahore" subjects={['Math', 'Physics', 'Chemistry']} />
     </>
   )
 }
