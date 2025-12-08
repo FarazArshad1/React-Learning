@@ -1,11 +1,11 @@
-import UserProfile from './components/State Management/UserProfile'
+import Student from './components/State Management/Student'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <UserProfile />
+      <Student />
     </>
   )
 }
