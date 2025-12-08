@@ -1,11 +1,11 @@
-import Student from './components/State Management/Student'
+import InputExample from './components/State Management/InputExample'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Student />
+      <InputExample />
     </>
   )
 }
