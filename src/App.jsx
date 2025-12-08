@@ -1,11 +1,11 @@
-import Counter from './components/State Management/CounterComponent'
+import ToggleText from './components/State Management/ToggleText'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Counter />
+      <ToggleText />
     </>
   )
 }
