@@ -1,11 +1,11 @@
-import LikeButton from './components/State Management/LikeButton'
+import UserProfile from './components/State Management/UserProfile'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <LikeButton />
+      <UserProfile />
     </>
   )
 }
