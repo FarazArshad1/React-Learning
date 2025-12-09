@@ -1,11 +1,11 @@
-import InputExample from './components/State Management/InputExample'
+import MultiInputForm from './components/Form Handling/MultiInputForm'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <InputExample />
+      <MultiInputForm />
     </>
   )
 }
