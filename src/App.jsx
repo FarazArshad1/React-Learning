@@ -1,11 +1,11 @@
-import UncontrolledForm from './components/Form Handling/Uncontrolled Component/UncontrolledForm'
+import Todo from './Todo App/Todo'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <UncontrolledForm />
+      <Todo />
     </>
   )
 }
