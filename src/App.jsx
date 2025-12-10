@@ -1,11 +1,11 @@
-import AdvancedFormField from './components/Form Handling/AdvancedFormField'
+import UncontrolledForm from './components/Form Handling/Uncontrolled Component/UncontrolledForm'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <AdvancedFormField />
+      <UncontrolledForm />
     </>
   )
 }
