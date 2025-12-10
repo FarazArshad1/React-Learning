@@ -1,11 +1,11 @@
-import MultiInputForm from './components/Form Handling/MultiInputForm'
+import AdvancedFormField from './components/Form Handling/AdvancedFormField'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <MultiInputForm />
+      <AdvancedFormField />
     </>
   )
 }
