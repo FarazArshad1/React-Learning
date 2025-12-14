@@ -1,11 +1,11 @@
-import Timer from './components/UseEffect Hooks/Timer'
+import WindowSizeTracker from './components/UseEffect Hooks/WindowSizeTracker'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Timer />
+      <WindowSizeTracker />
     </>
   )
 }
