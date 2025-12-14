@@ -1,11 +1,11 @@
-import Todo from './Todo App/Todo'
+import FirstuseEffectHook from './components/UseEffect Hooks/useEffectHook'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Todo />
+      <FirstuseEffectHook />
     </>
   )
 }
