@@ -1,11 +1,11 @@
-import FirstuseEffectHook from './components/UseEffect Hooks/useEffectHook'
+import Timer from './components/UseEffect Hooks/Timer'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <FirstuseEffectHook />
+      <Timer />
     </>
   )
 }
