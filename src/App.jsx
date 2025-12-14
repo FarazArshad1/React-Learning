@@ -1,11 +1,11 @@
-import WindowSizeTracker from './components/UseEffect Hooks/WindowSizeTracker'
+import Users from './components/UseEffect Hooks/Users'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <WindowSizeTracker />
+      <Users />
     </>
   )
 }
