@@ -1,11 +1,11 @@
 import { BrowserRouter, Router, Route, Routes, Link } from 'react-router-dom'
 import './App.css'
-import ExpenseTracker from './Expense Tracker/expenseTracker'
+import MovieExplorer from './Movie Explorer/movieExplorer'
 
 function App() {
 
   return (
-    <ExpenseTracker/>
+    <MovieExplorer />
 
   )
 }
