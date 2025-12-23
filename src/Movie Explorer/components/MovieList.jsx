@@ -1,13 +1,21 @@
 import MovieCard from "./MovieCard"
 
-function MovieList() {
-  return (
-    <div>
-          <div className="movie-list">
-            <MovieCard/>
-          </div>
-    </div>
-  )
+function MovieList({ movies }) {
+    if (movies.length == 0) {
+        return <div>No movies found</div>
+    }
+    console.log(`Movie details : ${movies}`)
+    return (
+        <div>
+            <div className="movie-list">
+                {
+                    movies.map((movie) => (
+                        <MovieCard key={(movie.imdbID)} movie={movie} />
+                    ))
+                }
+            </div>
+        </div>
+    )
 }
 
 export default MovieList
