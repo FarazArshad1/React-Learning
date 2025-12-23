@@ -19,7 +19,7 @@ export default function Home() {
 
     useEffect(() => {
         fecthMovies("Avengers")
-    },[])
+    }, [])
 
     const handleSearch = (event) => {
         event.preventDefault();
@@ -35,8 +35,8 @@ export default function Home() {
                     <input ref={inputRef} className="searchInput" placeholder="Search for Link movie..." />
                     <button type="submit">Search 🔎</button>
                 </form>
-                {loading ? <p>Loading</p> : <MovieList movies={movies}/>}
-                
+                {loading ? <p>Loading</p> : <MovieList movies={movies} />}
+
             </div>
         </div>
     )

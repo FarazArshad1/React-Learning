@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function MovieCard({movie}) {
+function MovieCard({ movie }) {
 
     return (
         <div>
