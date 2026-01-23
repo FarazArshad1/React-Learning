@@ -1,11 +1,11 @@
 import { BrowserRouter, Router, Route, Routes, Link } from 'react-router-dom'
 import './App.css'
-import MovieExplorer from './Movie Explorer/movieExplorer'
+import Parent from './components/Props Drilling/PropsDrilling'
 
 function App() {
 
   return (
-    <MovieExplorer />
+    <Parent />
 
   )
 }
