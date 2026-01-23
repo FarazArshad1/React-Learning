@@ -1,11 +1,11 @@
 import { BrowserRouter, Router, Route, Routes, Link } from 'react-router-dom'
 import './App.css'
-import Parent from './components/Props Drilling/PropsDrilling'
+import SharedState from './components/Shared State/SharedState'
 
 function App() {
 
   return (
-    <Parent />
+    <SharedState />
 
   )
 }
