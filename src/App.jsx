@@ -1,12 +1,15 @@
 import { BrowserRouter, Router, Route, Routes, Link } from 'react-router-dom'
 import './App.css'
-import SharedState from './components/Shared State/SharedState'
+import Parent from './components/UseContext/UseContext'
+import ChangeThemeColor from './components/UseContext/ChangeThemeColor'
 
 function App() {
 
   return (
-    <SharedState />
-
+    <div>
+      <ChangeThemeColor />
+      <Parent />
+    </div>
   )
 }
 
