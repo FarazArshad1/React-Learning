@@ -1,10 +1,14 @@
 import CheckBox from './components/UseReducer Hook/useReducerHook'
+import Counter from './components/UseReducer Hook/Counter'
 import './App.css'
 
 function App() {
 
   return (
-    <CheckBox />
+    <div>
+      <CheckBox />
+      <Counter />
+    </div>
   )
 }
 
