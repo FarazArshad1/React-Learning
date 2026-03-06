@@ -1,11 +1,11 @@
-import CounterWithCallBackHook from "./components/UseCallBack Hook/Parent"
+import Animation from './components/UseLayout Hook/AnimatedDiv'
 import './App.css'
 
 function App() {
 
   return (
     <div>
-      <CounterWithCallBackHook />
+      <Animation />
     </div>
   )
 }
