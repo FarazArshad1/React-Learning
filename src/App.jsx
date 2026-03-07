@@ -1,11 +1,11 @@
-import Animation from './components/UseLayout Hook/AnimatedDiv'
+import Users from './components/Custom Hooks/UseFetch Hook/users'
 import './App.css'
 
 function App() {
 
   return (
     <div>
-      <Animation />
+      <Users />
     </div>
   )
 }
